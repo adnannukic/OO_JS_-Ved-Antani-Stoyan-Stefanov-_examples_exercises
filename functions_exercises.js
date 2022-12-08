@@ -39,7 +39,7 @@ f("Boo!"); // we assign a function to a different variable, then f points to the
 //Example 2:
 var e;
 var f = console.log;
-(e = f)('Boo!');
+(e = f)('Boo!'); // same logic
 //Example 3:
 (function() {
      return console.log;
